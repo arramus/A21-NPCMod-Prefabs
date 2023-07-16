@@ -1,0 +1,86 @@
+-------------------------
+A21 NPCMod Prefabs (POIs)
+-------------------------
+
+===========================================
+
+CONTENTS:
+- ABOUT NPCMOD
+- PREFAB INSTALLATION
+- CURRENT LIST OF PREFABS
+- PREFAB CONFIGURATION FOR PREFAB CREATORS
+
+===========================================
+
+- ABOUT NPCMOD:
+
+The NPCMod provides players with a variety of non player characters that add immersion to 7D2D game play.
+These characters range from ally (hireable assistants) to hostile (attempt to eliminate you).
+These characters can spawn in each biome depending on how they have been configured.
+In addition, they can also be added to Prefabs/POIs and spawn, as with regular default zombie characters.
+These Prefabs have been set up to spawn NPCMod entities by default.
+
+In order to use these Prefabs for the NPCMod, the minimum requirement is to install:
+
+Score (0-SCore)
+NPCCore (0-XNPCCore)
+
+https://community.7daystodie.com/topic/26974-npcmod-a-community-project/
+
+In addition to the core files, players will typically install the NPCMod Addon Character and Feature Packs to enhance the experience.
+
+In some cases, these packs will contain totally new characters, and be given the Prefix of 1-'Name' such as 1-RaiderzPack by Darkstardragon.
+The packs can support different classes such as Bandits, Arachnids, and Enemy Animals.
+If you have not installed any Addon Characters, the Prefabs will spawn 'fall back' 0-XNPCCore defaults.
+If you have installed Addon Characters, such as Darkstardragon's Bandit class Raiders, expect to see them appear in the POIs.
+
+
+- PREFAB INSTALLATION:
+
+These Prefabs are bundled into their own stand alone mod.
+This mod can be added to your 'Mods' folder in either the:
+
+- AppData\Roaming\7DaysToDie\Mods folder
+- Steam\steamapps\common\7 Days To Die\Mods
+- Appropriate Mods folder in the 7D2D Mod Launcher
+
+- CURRENT LIST OF PREFABS IN ALPHABETICAL ORDER:
+
+(An image of each Prefab can be viewed in the jpg file)
+
+NPCMod_Arachnids_army_camp_02 - Tier 2 Fetch/Clear (Wilderness - 53 x 57): Created by TFP and converted by arramus.
+NPCMod_Arachnids_Cave_01 - Tier 3 Fetch/Clear (Wilderness - 69 x 59): Created by arramus.
+NPCMod_Bandits_Cursed_Manor_by_WildPig_and_arramus - Tier 4 Fetch/Clear (Wilderness - 72 x 78): Created by WildPig with assistance by arramus.
+NPCMod_Bandits_Flying_Wallendas_by_MPLogue - Tier 4 Fetch (Wilderness - 142 x 141): Created by MPLogue with NPCMod conversion by arramus.
+NPCMod_Bandits_installation_red_mesa_01 - Tier 5 Fetch/Clear/Restore Power/Infected (Wilderness - 72 x 83): Created by TFP with NPCMod conversion by arramus.
+NPCMod_Bandits_Joust_Arena_01 - Tier 4 Fetch/Clear (Wilderness/Downtown - 60 x 60): Created by arramus with support from Wild Pig.
+NPCMod_Bandits_Maunsell_Forts_by_MPLogue - Tier 5 Fetch (Wilderness - 153 x 148): Created by MPLogue with NPCMod conversion by arramus.
+NPCMod_Bandits_Settlement_01 - Tier 5 Fetch/Clear (Wilderness - 100 x 100): Created by arramus with kind use of MPLogue's 'Dirigible' Prefab.
+NPCMod_Bandits_Settlement_02 - Tier 4 Fetch/Clear/Power Restore (Wilderness - 100 x 100): Created by arramus with unused default POI support and The Wasteland Mod influence. 
+
+- PREFAB CONFIGURATION FOR PREFAB CREATORS:
+
+For the purpose of supporting NPCMod Prefabs, the 0-XNPCCore contains a variety of custom made preconfigured groups.
+These were kindly created by khzmusik and conform to regular game nomenclature and format.
+These groups are specifically assigned for NPCMod characters and will appear in the UI in the Editor when using 'K' on the selected Sleeper Volume.
+This will allow Prefab creators to assign NPCMod types to Sleeper Volumes in their Prefabs/POIs.
+
+Considerations:-
+
+a) The NPCMod characters support enhanced AI and will be more aware of their surroundings.
+This can cause them to roam more than regular default characters.
+
+b) Adding a PathingCube very close to the Sleeper and typing Task=stay in its text box sets it to act like a Turret Guard. It will remain stationary.
+The NPCMod characters can use all 6 Sleeper positions (not including crawler) and this can used to good effect with a delayed sighting if they are hidden.
+Examples include, laying on stomach while in a bunker, laying on side while next to a defensive barrier such as a sandbag, and sitting at the top of a staircase.
+
+c) Entities in Passive Sleeper Volumes will not appear as 'dots' on the UI for 'Clear' quests. This allows them to be used as hidden hostiles.
+However, please be aware that this may frustrate players if they are hidden too well.
+
+d) While the 0-XNPCCore supports a variety of custom Sleeper groups, it is necessary for Addon creators to assign their characters to these groups.
+This is done in the entitygroups.xml with each Addon's Config folder. Entities in these groups do not need a probability added. This will set them to 1.0 (100% but relative) by default.
+If all Addon Packs follow this guidance, they will all spawn equally and fairly to ensure a wide spectrum of interactions.
+If these do not exist in the specific Addon, which may best suit your Prefab, it will be necessary to contact the Addon creator or provide your own.
+
+e) Where no 1-'Name' Addon Pack exists for a Prefab's sleeper groups, the Sleeper Volumes can fall back on default characters within the 0-XNPCCore.
+The range of characters will be severely limited, but it will allow the Prefab to remain functional.
