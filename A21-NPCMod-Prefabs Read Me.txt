@@ -57,6 +57,7 @@ NPCMod_Bandits_Joust_Arena_01 - Tier 4 Fetch/Clear (Wilderness/Downtown - 60 x 6
 NPCMod_Bandits_Maunsell_Forts_by_MPLogue - Tier 5 Fetch (Wilderness - 153 x 148): Created by MPLogue with NPCMod conversion by arramus.
 NPCMod_Bandits_Settlement_01 - Tier 5 Fetch/Clear (Wilderness - 100 x 100): Created by arramus with kind use of MPLogue's 'Dirigible' Prefab.
 NPCMod_Bandits_Settlement_02 - Tier 4 Fetch/Clear/Power Restore (Wilderness - 100 x 100): Created by arramus with unused default POI support and The Wasteland Mod influence. 
+rwg_tile_gateway_intersection2 - Gateway Tile Road Block using a default rwg_tile_gateway_intersection2 that will overwrite the original: Customised by arramus as an example of Pathing Cubes in Stay state.
 
 - PREFAB CONFIGURATION FOR PREFAB CREATORS:
 
